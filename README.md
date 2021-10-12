@@ -30,7 +30,7 @@ $ w_i <- w_i + scale \times N(0,1) $
 
 ### Result
 ![genetic_algorithm_gif](./images/snake24_1788_118_p500.gif)
-![genetic_algorithm_plot](./images/best_score_ga.PNG)
+![genetic_algorithm_plot](./images/best_score_ga.PNG)  
 **Score: 118 (Generation: 1788)**  
 > Population: 500  
 > Selection: Roulette Wheel  
