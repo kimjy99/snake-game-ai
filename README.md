@@ -31,11 +31,11 @@ $ w_i <- w_i + scale \times N(0,1) $
 ### Result
 ![genetic_algorithm_gif](./images/snake24_1788_118_p500.gif)
 ![genetic_algorithm_plot](./images/best_score_ga.PNG)
+**Score: 118 (Generation: 1788)**  
 > Population: 500  
 > Selection: Roulette Wheel  
 > Crossover: Simulated Binary Crossover 30% + Single Point Binary Crossover 70%  
 > Mutation: Gaussian Mutation 5%  
-> Score: 118 (at generation 1788)
 
 ## NEAT (NeuroEvolution of Augmenting Topologies)  
 ![image](./images/neat.png)  
@@ -43,9 +43,20 @@ $ w_i <- w_i + scale \times N(0,1) $
 ### Result
 ![neat_gif](./images/snake30_neat_1017_271_p200.gif)
 ![neat_plot](./images/best_score_neat.PNG)
+
+**Score: 271 (Generation: 1017)**  
 > Population: 150  
 > Initial Connection: unconnected  
 > Node add/delete rate: 8.5% / 3.5%  
 > Connection add/delete rate: 99% / 15%  
 > Weight mutate/replace rate: 45% / 2.5%  
 > Bias mutate/replace rate: 5% / 10%  
+
+## vs. Reinforcement Learning  
+### Deep Q Network (DQN)  
+![dqn_gif](./images/animation_dqn_17163_100.gif)  
+**Score: 100**  
+
+### Proximal Policy Optimization (PPO)  
+![ppo_gif](./images/animation_ppo_4225_132.gif)  
+**Score: 132**  
