@@ -3,7 +3,7 @@
 
 ## Input & Output
 #### Input
-![image](./images/input.PNG)
+![image](./images/input.png)
 Distances of wall, food, and snake itself for 8 directions (24 inputs)  
 & Previous direction of movement (one-hot encoding, 3 inputs)  
 → Total 27 inputs
@@ -37,7 +37,7 @@ $ w_i <- w_i + scale \times N(0,1) $
 > Score: 118 (at generation 1788)
 
 ## NEAT (NeuroEvolution of Augmenting Topologies)  
-![image](./images/neat.PNG)  
+![image](./images/neat.png)  
 
 ### Result
 ![neat_gif](./images/snake30_neat_1017_271_p200.gif)
