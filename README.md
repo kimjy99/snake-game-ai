@@ -17,16 +17,16 @@ Direction of movement (one-hot encoding for turn left, go straight, turn right)
 
 ### Selection: Roulette Wheel  
 Every Genome can be a parent for next generation, but probability of becoming a parent is proportial to fitness  
-Fitness: $ f(s,m) = 2^s + m + 500s^{2.1} - 0.25s^{1.2}m^{1.3} $  
+Fitness: 2^score + move + 500(score^2.1) - 0.25(score^1.2)(move^1.3)  
 (REF: https://github.com/Chrispresso/SnakeAI)
 
 ### Crossover
 ![image](./images/crossover.PNG)  
 
 ### Gaussian Mutation
-1. Select weight/bias where the mutation will occurs ($w_i$)  
+1. Select weight/bias where the mutation will occurs    
 2. For each weight/bias, pick a random value from normal distribution, multiply scale, and add it to weight/bias  
-$ w_i <- w_i + scale \times N(0,1) $
+w ← w + scale * N(0,1)
 
 ### Result
 ![genetic_algorithm_gif](./images/snake24_1788_118_p500.gif)
