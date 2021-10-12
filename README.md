@@ -2,13 +2,14 @@
 ![Best_Genome](./images/snake30_neat_1017_271_p200.gif)
 
 ## Input & Output
-#### Input
-![image](./images/input.png)
+### Input
+<img src="./images/input.png" width="400" height="400"/>
+
 Distances of wall, food, and snake itself for 8 directions (24 inputs)  
 & Previous direction of movement (one-hot encoding, 3 inputs)  
 → Total 27 inputs
 
-#### Output
+### Output
 Direction of movement (one-hot encoding for turn left, go straight, turn right)  
 
 ## Genetic Algorithm
