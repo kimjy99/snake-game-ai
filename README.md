@@ -5,9 +5,9 @@
 ### Input
 <img src="./images/input.png" width="400" height="400"/>
 
-Distances of wall, food, and snake itself for 8 directions (24 inputs)  
-& Previous direction of movement (one-hot encoding, 3 inputs)  
-→ Total 27 inputs
++ Distances of wall, food, and snake itself for 8 directions (24 inputs)  
++ Previous direction of movement (one-hot encoding, 3 inputs)  
+  → Total 27 inputs
 
 ### Output
 Direction of movement (one-hot encoding for turn left, go straight, turn right)  
@@ -17,8 +17,7 @@ Direction of movement (one-hot encoding for turn left, go straight, turn right)
 
 ### Selection: Roulette Wheel  
 Every Genome can be a parent for next generation, but probability of becoming a parent is proportial to fitness  
-Fitness: 2^score + move + 500(score^2.1) - 0.25(score^1.2)(move^1.3)  
-(REF: https://github.com/Chrispresso/SnakeAI)
+Fitness: 2^score + move + 500(score^2.1) - 0.25(score^1.2)(move^1.3) (REF: https://github.com/Chrispresso/SnakeAI)  
 
 ### Crossover
 ![image](./images/crossover.PNG)  
