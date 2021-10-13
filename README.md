@@ -44,7 +44,7 @@ w ← w + scale * N(0,1)
 ![neat_plot](./images/best_score_neat.PNG)
 
 **Score: 271 (Generation: 1017)**  
-> Population: 150  
+> Population: 200  
 > Initial Connection: unconnected  
 > Node add/delete rate: 8.5% / 3.5%  
 > Connection add/delete rate: 99% / 15%  
