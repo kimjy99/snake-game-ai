@@ -1,6 +1,8 @@
 # Snake game AI with Genetic Algorithm (2020.07.17)
 ![Best_Genome](./images/snake30_neat_1017_271_p200.gif)
 
+<br>  
+
 ## Input & Output
 ### Input
 <img src="./images/input.png" width="400" height="400"/>
@@ -11,6 +13,8 @@
 
 ### Output
 Direction of movement (one-hot encoding for turn left, go straight, turn right)  
+
+<br>  
 
 ## Genetic Algorithm
 ![genetic_algorithm](./images/genetic_algorithm.PNG)
@@ -36,6 +40,8 @@ w ← w + scale * N(0,1)
 > Crossover: Simulated Binary Crossover 30% + Single Point Binary Crossover 70%  
 > Mutation: Gaussian Mutation 5%  
 
+<br>  
+
 ## NEAT (NeuroEvolution of Augmenting Topologies)  
 ![image](./images/neat.png)  
 
@@ -50,6 +56,8 @@ w ← w + scale * N(0,1)
 > Connection add/delete rate: 99% / 15%  
 > Weight mutate/replace rate: 45% / 2.5%  
 > Bias mutate/replace rate: 5% / 10%  
+
+<br>  
 
 ## vs. Reinforcement Learning  
 ### Deep Q Network (DQN)  
